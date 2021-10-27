@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css" integrity="sha512-AyOHI/tIMgoG+32apAs3OdqFowPSDqiz5vLcD2wdhBJ4J/xF1PI6UITcyhS5HCmsiioapRaONqYBvimxzFfnoA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://cledara-public.s3.eu-west-2.amazonaws.com/heroku.png" type="image/x-icon">
+    <title>Sanjeet App</title>
+</head>
+<body>
+    {{>Navbar}}
+    {{!-- hero-section-starts --}}
+    {{>hero}}
+      {{!-- hero-section-ends --}}
+
+      {{!-- about-section-starts --}}
+      {{>about}}
+      {{!-- about-section-ends --}}
+
+      {{!-- service-section-starts --}}
+      {{>service}}
+      {{!-- service-section-ends --}}
+
+      {{!-- map-section-starts --}}
+      {{>map}}
+      {{!-- map-section-ends --}}
+
+      {{!-- contact-section-starts --}}
+      {{>contact}}
+      {{!-- contact-section-ends --}}
+      
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
